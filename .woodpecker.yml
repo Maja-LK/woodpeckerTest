@@ -1,0 +1,5 @@
+steps:
+  - name: hello
+    image: node:18
+    commands:
+      - echo "Hej fra Woodpecker!"

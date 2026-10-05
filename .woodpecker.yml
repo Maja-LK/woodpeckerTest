@@ -1,5 +1,10 @@
 steps:
   - name: hello
     image: node:18
+    evironment: 
+      TEST_BRUGERNAVN:
+        from_secret: user_name_test
+      TEST_PASSWORD:
+        from_secret: user_password_test 
     commands:
       - echo "Hej fra Woodpecker!"

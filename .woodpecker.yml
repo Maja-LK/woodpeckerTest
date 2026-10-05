@@ -1,7 +1,7 @@
 steps:
   - name: hello
     image: node:18
-    evironment: 
+    environment: 
       TEST_BRUGERNAVN:
         from_secret: user_name_test
       TEST_PASSWORD:

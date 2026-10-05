@@ -8,5 +8,5 @@ steps:
         from_secret: user_password_test 
     commands:
       - echo "Hej fra Woodpecker!"
-      - echo "TEST_BRUGERNAVN er: $TEST_BRUGERNAVN"
-      - echo "TEST_PASSWORD" er: $TEST_PASSWORD" 
+      - 'echo "TEST_BRUGERNAVN er: $TEST_BRUGERNAVN"'
+      - 'echo "TEST_PASSWORD" er: $TEST_PASSWORD"' 

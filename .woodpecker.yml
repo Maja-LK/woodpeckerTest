@@ -1,5 +1,7 @@
 when:
-  event: [cron, manuel]
+  event:
+    - cron
+    - manuel
   cron: CronTest_1
 steps:
   - name: hello

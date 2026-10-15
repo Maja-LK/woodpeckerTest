@@ -2,7 +2,7 @@ steps:
   - name: hello
     image: node:18
     when:
-      event: cron
+      event: [cron, manuel]
       cron: CronTest_1
     environment:  
       TEST_BRUGERNAVN:

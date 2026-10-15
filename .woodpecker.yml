@@ -1,9 +1,9 @@
+when:
+  event: [cron, manuel]
+  cron: CronTest_1
 steps:
   - name: hello
     image: node:18
-    when:
-      event: [cron, manuel]
-      cron: CronTest_1
     environment:  
       TEST_BRUGERNAVN:
         from_secret: user_name_test
